@@ -1,12 +1,9 @@
 import { useScript } from './hooks/useScript';
 
-declare const TEST_SCRIPT: {
-  start: () => string;
-};
-
 export default function App() {
   const status = useScript(
-    'https://pm28k14qlj.codesandbox.io/test-external-script.js'
+    // 'https://pm28k14qlj.codesandbox.io/test-external-script.js',
+    ''
   );
 
   return (
